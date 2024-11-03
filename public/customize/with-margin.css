@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styling */
+.container {
+  margin: 54px;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid black;
+}
+
+.header img {
+  width: 100px;
+  position: absolute;
+  top: 16px;
+  left: 10px;
+}
+
+.header .title {
+  /* display: inline-block; */
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 18px;
+}
+
+.title h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content {
+  padding-top: 28px;
+}
+
+.content .jenis-surat {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  padding-bottom: 5px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+  /* text-decoration-thickness: 2px; */
+}
+
+.content .nomor-surat {
+  font-size: 16px;
+  display: flex;
+  padding-bottom: 28px;
+  text-align: center;
+  justify-content: center;
+  /* text-decoration-thickness: 2px; */
+}
+
+.nama-ttd {
+  /* font-size: 16px; */
+  font-weight: bold;
+  display: flex;
+  padding-bottom: 28px;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* text-decoration: underline; */
+  /* text-decoration-thickness: 2px; */
+}
+
+.data {
+  /* line-height: 14px; */
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.data-title {
+  display: inline-flex;
+  width: 170px;
+}
+
+.sub-data-title {
+  padding-left: 28px;
+}
+
+.dbl-dot:before {
+  content: ':';
+  margin-right: 10px;
+}
+
+.footer {
+  display: block;
+  position: relative;
+  margin-top: 48px;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.footer .data-foot {
+  position: absolute;
+  right: 0;
+}
+
+.data-foot span {
+  display: block;
+  margin-bottom: 68px;
+}
+
+.my {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
